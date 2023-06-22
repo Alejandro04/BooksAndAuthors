@@ -7,6 +7,7 @@ import { AuthorEdit } from "./authors/AuthorEdit";
 import { AuthorCreate } from "./authors/AuthorCreate";
 import { BookEdit } from "./books/BookEdit";
 import { BookCreate } from "./books/BookCreate";
+import { Dashboard } from './Dashboard';
 
 import BookIcon from "@mui/icons-material/Book";
 import AuthorIcon from "@mui/icons-material/Group";
@@ -14,6 +15,7 @@ import AuthorIcon from "@mui/icons-material/Group";
 export const App = () => (
 	<Admin
 		dataProvider={dataProvider}
+		dashboard={Dashboard}
 	>
 		<Resource
 			name="books"
