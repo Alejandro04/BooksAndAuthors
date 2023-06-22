@@ -5,38 +5,302 @@
             "title": "Libro 1",
             "author": "Alejo",
             "year_of_publication": "2019"
-        },
-        {
+          },
+          {
             "id": 2,
             "title": "Libro 2",
             "author": "Miguel",
             "year_of_publication": "2020"
-        },
-        {
+          },
+          {
             "id": 3,
             "title": "Libro 3",
             "author": "Ana",
             "year_of_publication": "2021"
-        }
+          },
+          {
+            "id": 4,
+            "title": "Libro 4",
+            "author": "Juan",
+            "year_of_publication": "2018"
+          },
+          {
+            "id": 5,
+            "title": "Libro 5",
+            "author": "María",
+            "year_of_publication": "2022"
+          },
+          {
+            "id": 6,
+            "title": "Libro 6",
+            "author": "Pedro",
+            "year_of_publication": "2017"
+          },
+          {
+            "id": 7,
+            "title": "Libro 7",
+            "author": "Luisa",
+            "year_of_publication": "2023"
+          },
+          {
+            "id": 8,
+            "title": "Libro 8",
+            "author": "Carlos",
+            "year_of_publication": "2016"
+          },
+          {
+            "id": 9,
+            "title": "Libro 9",
+            "author": "Sofía",
+            "year_of_publication": "2024"
+          },
+          {
+            "id": 10,
+            "title": "Libro 10",
+            "author": "Andrés",
+            "year_of_publication": "2015"
+          },
+          {
+            "id": 11,
+            "title": "Libro 11",
+            "author": "Laura",
+            "year_of_publication": "2025"
+          },
+          {
+            "id": 12,
+            "title": "Libro 12",
+            "author": "Pablo",
+            "year_of_publication": "2014"
+          },
+          {
+            "id": 13,
+            "title": "Libro 13",
+            "author": "Isabel",
+            "year_of_publication": "2026"
+          },
+          {
+            "id": 14,
+            "title": "Libro 14",
+            "author": "Gabriel",
+            "year_of_publication": "2013"
+          },
+          {
+            "id": 15,
+            "title": "Libro 15",
+            "author": "Valentina",
+            "year_of_publication": "2027"
+          },
+          {
+            "id": 16,
+            "title": "Libro 16",
+            "author": "Fernando",
+            "year_of_publication": "2012"
+          },
+          {
+            "id": 17,
+            "title": "Libro 17",
+            "author": "Camila",
+            "year_of_publication": "2028"
+          },
+          {
+            "id": 18,
+            "title": "Libro 18",
+            "author": "Roberto",
+            "year_of_publication": "2011"
+          }
     ],
     "authors": [
         {
             "id": 1,
             "fullname": "Alejo",
             "date_of_birth": "04/10/1980",
-            "nacionality": "Venezolano"
-        },
-        {
+            "nationality": "Venezolano"
+          },
+          {
             "id": 2,
             "fullname": "Miguel",
             "date_of_birth": "05/12/1990",
-            "nacionality": "Ecuatoriano"
-        },
-        {
+            "nationality": "Ecuatoriano"
+          },
+          {
             "id": 3,
             "fullname": "Ana",
             "date_of_birth": "17/12/2005",
-            "nacionality": "Chilena"
-        }
+            "nationality": "Chilena"
+          },
+          {
+            "id": 4,
+            "fullname": "Juan",
+            "date_of_birth": "20/05/1975",
+            "nationality": "Mexicano"
+          },
+          {
+            "id": 5,
+            "fullname": "María",
+            "date_of_birth": "15/09/1988",
+            "nationality": "Española"
+          },
+          {
+            "id": 6,
+            "fullname": "Pedro",
+            "date_of_birth": "02/11/1992",
+            "nationality": "Colombiano"
+          },
+          {
+            "id": 7,
+            "fullname": "Luisa",
+            "date_of_birth": "12/03/1985",
+            "nationality": "Peruana"
+          },
+          {
+            "id": 8,
+            "fullname": "Carlos",
+            "date_of_birth": "28/07/1997",
+            "nationality": "Argentino"
+          },
+          {
+            "id": 9,
+            "fullname": "Sofía",
+            "date_of_birth": "10/06/1982",
+            "nationality": "Uruguaya"
+          },
+          {
+            "id": 10,
+            "fullname": "Andrés",
+            "date_of_birth": "19/08/1994",
+            "nationality": "Paraguayo"
+          },
+          {
+            "id": 11,
+            "fullname": "Laura",
+            "date_of_birth": "23/01/1987",
+            "nationality": "Boliviana"
+          },
+          {
+            "id": 12,
+            "fullname": "Pablo",
+            "date_of_birth": "07/04/1998",
+            "nationality": "Costarricense"
+          },
+          {
+            "id": 13,
+            "fullname": "Isabel",
+            "date_of_birth": "14/11/1983",
+            "nationality": "Dominicana"
+          },
+          {
+            "id": 14,
+            "fullname": "Gabriel",
+            "date_of_birth": "29/02/1996",
+            "nationality": "Panameño"
+          },
+          {
+            "id": 15,
+            "fullname": "Valentina",
+            "date_of_birth": "08/07/1989",
+            "nationality": "Hondureña"
+          },
+          {
+            "id": 16,
+            "fullname": "Fernando",
+            "date_of_birth": "06/09/1981",
+            "nationality": "Salvadoreño"
+          },
+          {
+            "id": 17,
+            "fullname": "Camila",
+            "date_of_birth": "25/12/1991",
+            "nationality": "Nicaragüense"
+          },
+          {
+            "id": 18,
+            "fullname": "Roberto",
+            "date_of_birth": "03/03/1984",
+            "nationality": "Guatemalteco"
+          },
+          {
+            "id": 19,
+            "fullname": "Luis",
+            "date_of_birth": "16/02/1993",
+            "nationality": "Puertorriqueño"
+          },
+          {
+            "id": 20,
+            "fullname": "Diana",
+            "date_of_birth": "09/11/1986",
+            "nationality": "Dominicana"
+          },
+          {
+            "id": 21,
+            "fullname": "Elena",
+            "date_of_birth": "22/07/1982",
+            "nationality": "Colombiana"
+          },
+          {
+            "id": 22,
+            "fullname": "Gabriela",
+            "date_of_birth": "12/09/1995",
+            "nationality": "Ecuatoriana"
+          },
+          {
+            "id": 23,
+            "fullname": "Andrea",
+            "date_of_birth": "18/06/1990",
+            "nationality": "Peruana"
+          },
+          {
+            "id": 24,
+            "fullname": "Ricardo",
+            "date_of_birth": "06/05/1987",
+            "nationality": "Chileno"
+          },
+          {
+            "id": 25,
+            "fullname": "Carmen",
+            "date_of_birth": "28/12/1992",
+            "nationality": "Española"
+          },
+          {
+            "id": 26,
+            "fullname": "Javier",
+            "date_of_birth": "14/04/1989",
+            "nationality": "Mexicano"
+          },
+          {
+            "id": 27,
+            "fullname": "Patricia",
+            "date_of_birth": "09/03/1983",
+            "nationality": "Venezolana"
+          },
+          {
+            "id": 28,
+            "fullname": "Fernanda",
+            "date_of_birth": "27/10/1991",
+            "nationality": "Argentina"
+          },
+          {
+            "id": 29,
+            "fullname": "Raúl",
+            "date_of_birth": "02/08/1986",
+            "nationality": "Uruguayo"
+          },
+          {
+            "id": 30,
+            "fullname": "Lucía",
+            "date_of_birth": "20/01/1994",
+            "nationality": "Boliviana"
+          },
+          {
+            "id": 31,
+            "fullname": "Martín",
+            "date_of_birth": "11/11/1984",
+            "nationality": "Paraguayo"
+          },
+          {
+            "id": 32,
+            "fullname": "Carolina",
+            "date_of_birth": "07/06/1988",
+            "nationality": "Costarricense"
+          }
     ]
 }
