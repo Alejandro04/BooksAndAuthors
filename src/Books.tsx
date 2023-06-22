@@ -1,7 +1,20 @@
-import { List, Datagrid, TextField, ReferenceField, EditButton } from "react-admin";
+import { 
+  List, 
+  Datagrid, 
+  TextField, 
+  ReferenceField, 
+  EditButton, 
+  TextInput, 
+  ReferenceInput 
+} from "react-admin";
+
+const booksFilters = [
+  <TextInput source="q" label="Search" alwaysOn />,
+  <ReferenceInput source="authorId" label="Author" reference="authors" />,
+];
 
 export const BooksList = () => (
-  <List>
+  <List filters={booksFilters}>
     <Datagrid rowClick="edit">
       <TextField source="id" />
       <TextField source="title" />

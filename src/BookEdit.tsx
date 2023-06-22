@@ -9,7 +9,6 @@ export const BookEdit = () => (
 	<Edit>
 		<SimpleForm>
 			<ReferenceInput source="authorId" reference="authors" />
-			<ReferenceInput source="authorId" reference="authors" />
 			<TextInput source="title" />
 			<TextInput source="year_of_publication" />
 		</SimpleForm>
