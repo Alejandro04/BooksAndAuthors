@@ -1,114 +1,4 @@
 {
-    "books": [
-        {
-            "id": 1,
-            "title": "Libro 1",
-            "author": "Alejo",
-            "year_of_publication": "2019"
-          },
-          {
-            "id": 2,
-            "title": "Libro 2",
-            "author": "Miguel",
-            "year_of_publication": "2020"
-          },
-          {
-            "id": 3,
-            "title": "Libro 3",
-            "author": "Ana",
-            "year_of_publication": "2021"
-          },
-          {
-            "id": 4,
-            "title": "Libro 4",
-            "author": "Juan",
-            "year_of_publication": "2018"
-          },
-          {
-            "id": 5,
-            "title": "Libro 5",
-            "author": "María",
-            "year_of_publication": "2022"
-          },
-          {
-            "id": 6,
-            "title": "Libro 6",
-            "author": "Pedro",
-            "year_of_publication": "2017"
-          },
-          {
-            "id": 7,
-            "title": "Libro 7",
-            "author": "Luisa",
-            "year_of_publication": "2023"
-          },
-          {
-            "id": 8,
-            "title": "Libro 8",
-            "author": "Carlos",
-            "year_of_publication": "2016"
-          },
-          {
-            "id": 9,
-            "title": "Libro 9",
-            "author": "Sofía",
-            "year_of_publication": "2024"
-          },
-          {
-            "id": 10,
-            "title": "Libro 10",
-            "author": "Andrés",
-            "year_of_publication": "2015"
-          },
-          {
-            "id": 11,
-            "title": "Libro 11",
-            "author": "Laura",
-            "year_of_publication": "2025"
-          },
-          {
-            "id": 12,
-            "title": "Libro 12",
-            "author": "Pablo",
-            "year_of_publication": "2014"
-          },
-          {
-            "id": 13,
-            "title": "Libro 13",
-            "author": "Isabel",
-            "year_of_publication": "2026"
-          },
-          {
-            "id": 14,
-            "title": "Libro 14",
-            "author": "Gabriel",
-            "year_of_publication": "2013"
-          },
-          {
-            "id": 15,
-            "title": "Libro 15",
-            "author": "Valentina",
-            "year_of_publication": "2027"
-          },
-          {
-            "id": 16,
-            "title": "Libro 16",
-            "author": "Fernando",
-            "year_of_publication": "2012"
-          },
-          {
-            "id": 17,
-            "title": "Libro 17",
-            "author": "Camila",
-            "year_of_publication": "2028"
-          },
-          {
-            "id": 18,
-            "title": "Libro 18",
-            "author": "Roberto",
-            "year_of_publication": "2011"
-          }
-    ],
     "authors": [
         {
             "id": 1,
@@ -301,6 +191,26 @@
             "fullname": "Carolina",
             "date_of_birth": "07/06/1988",
             "nationality": "Costarricense"
+          }
+    ],
+    "books": [
+        {
+            "authorId": 1,
+            "id": 1,
+            "title": "Libro 1",
+            "year_of_publication": "2019"
+          },
+          {
+            "authorId": 2,
+            "id": 2,
+            "title": "Libro 2",
+            "year_of_publication": "2021"
+          },
+          {
+            "authorId": 10,
+            "id": 3,
+            "title": "Libro 3",
+            "year_of_publication": "2016"
           }
     ]
 }
