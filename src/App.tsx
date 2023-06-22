@@ -8,6 +8,9 @@ import { AuthorCreate } from "./authors/AuthorCreate";
 import { BookEdit } from "./books/BookEdit";
 import { BookCreate } from "./books/BookCreate";
 
+import BookIcon from "@mui/icons-material/Book";
+import AuthorIcon from "@mui/icons-material/Group";
+
 export const App = () => (
 	<Admin
 		dataProvider={dataProvider}
@@ -16,13 +19,15 @@ export const App = () => (
 			name="books"
 			list={BooksList}
 			edit={BookEdit}
-			create={BookCreate} />
+			create={BookCreate}
+			icon={BookIcon} />
 		<Resource
 			name="authors"
 			list={AuthorsList}
 			recordRepresentation="fullname"
 			edit={AuthorEdit}
-			create={AuthorCreate} />
+			create={AuthorCreate}
+			icon={AuthorIcon} />
 	</Admin>
 );
 
