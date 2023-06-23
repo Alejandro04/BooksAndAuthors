@@ -2,7 +2,7 @@
 
 ## Important
 
-The domain and infraestructure folders is a proposal about the architecture and not is
+The domain and infraestructure folders are proposal about the architecture and not is
 implement in the functionality of the project.
 
 ## More details in Notion:
@@ -23,14 +23,17 @@ Start the server:
 ```sh
 npm run json-server
 ```
-and a other console instance:
+and in another instance of the console:
 ```sh
 npm run dev
 ```
 
 ## Unit test
 
-Execute cd /test and after that:
+Write in the console:
+```sh
+cd tests/
+```
 ```sh
 npm run test
 ```
