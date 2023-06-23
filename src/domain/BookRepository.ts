@@ -5,5 +5,5 @@ export interface BookRepository {
     getOne(): Book
     save(book: Book): Book
     update(book: Book): Book
-    delete(id: number): boolean
+    delete(id: string): boolean
 } 

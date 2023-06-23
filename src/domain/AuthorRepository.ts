@@ -5,5 +5,5 @@ export interface AuthorRepository {
     getOne(): Author
     save(author: Author): Author
     update(author: Author): Author
-    delete(id: number): boolean
+    delete(id: string): boolean
 } 
