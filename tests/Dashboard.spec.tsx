@@ -1,6 +1,5 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Card, CardContent, CardHeader } from '@mui/material';
 import { Dashboard } from '../src/Dashboard';
 
 describe('Dashboard', () => {

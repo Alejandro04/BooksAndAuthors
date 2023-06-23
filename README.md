@@ -26,6 +26,11 @@ Execute cd /test and after that:
 npm run test
 ```
 
+## Important
+
+The domain folder is a proposal about the architecture and not is
+implement in the functionality of the project.
+
 ## More details in Notion:
  [Tool architecture](https://marshy-stork-a93.notion.site/Aquitectura-de-la-herramienta-fa1462f89c36464d9ece14b7c397773c?pvs=4)
 
