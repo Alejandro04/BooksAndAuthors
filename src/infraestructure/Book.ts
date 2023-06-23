@@ -9,7 +9,8 @@ export class BookRepositoryImpl implements BookRepository {
 	}
 
 	getList(): Book[] {
-		return this.books;
+		const books = this.getAllBooks();
+		return books;
 	}
 
 	getOne(): Book {
@@ -41,4 +42,17 @@ export class BookRepositoryImpl implements BookRepository {
 		}
 		return false;
 	}
+
+	getAllBooks(): Book[] {
+    const allBooks = this.books.map(book => {
+       	return {
+          id: book.id,
+          title: book.title,
+          yearOfPublication: book.yearOfPublication,
+          authorId: book.authorId,
+        };
+      });
+
+		return allBooks
+  }
 }

@@ -9,7 +9,8 @@ export class AuthorRepositoryImpl implements AuthorRepository {
   }
 
   getList(): Author[] {
-    return this.authors;
+    const authors = this.getAllAuthors()
+    return authors;
   }
 
   getOne(): Author {
@@ -40,5 +41,18 @@ export class AuthorRepositoryImpl implements AuthorRepository {
       return true;
     }
     return false;
+  }
+
+  getAllAuthors(): Author[] {
+    const allAuthors = this.authors.map(author => {
+       	return {
+          id: author.id,
+          fullname: author.fullname,
+          nationality: author.nationality,
+          dateOfBirth: author.dateOfBirth
+        };
+      });
+
+	return allAuthors
   }
 }
