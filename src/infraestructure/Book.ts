@@ -44,15 +44,15 @@ export class BookRepositoryImpl implements BookRepository {
 	}
 
 	getAllBooks(): Book[] {
-    const allBooks = this.books.map(book => {
-       	return {
-          id: book.id,
-          title: book.title,
-          yearOfPublication: book.yearOfPublication,
-          authorId: book.authorId,
-        };
-      });
+		const allBooks = this.books.map(book => {
+			return {
+				id: book.id,
+				title: book.title,
+				yearOfPublication: book.yearOfPublication,
+				authorId: book.authorId,
+			};
+		});
 
 		return allBooks
-  }
+	}
 }
